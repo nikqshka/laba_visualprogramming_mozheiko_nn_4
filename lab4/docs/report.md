@@ -34,14 +34,6 @@
 3. **Работа с Redis (3.1):**
    > «Как в n8n настроить credentials для Redis на localhost (host.docker.internal, port 6379) и использовать ноды Redis Set и Redis Get?»
 
-4. **Чтение файла из GitHub (Ачивка 9):**
-   > «Как в n8n через ноду GitHub получить содержимое файла README.md из репозитория и декодировать его из Base64 в обычный текст с помощью ноды Code?»
-   
-5. **Настройка Webhook для Ачивки 8:**
-   > «Как в n8n настроить ноду Webhook, чтобы она принимала GET-запрос с параметром text в URL, и как потом вытащить этот текст в следующей ноде через expression `{{ $json.query.text }}`?»
-
-6. **Авторизация Google Sheets (Ачивка 8):**
-   > «Как получить Client ID и Client Secret в Google Cloud Console для подключения Google Sheets OAuth2 API в n8n, и какой Redirect URI нужно указать?»
 
 ## Освоенные ноды
 
