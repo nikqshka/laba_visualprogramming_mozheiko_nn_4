@@ -77,50 +77,46 @@
 
 ### 2.2. Code
 
-- ![flow-02](../screenshots/flow-02-code.png)
+- <img width="1919" height="831" alt="image" src="https://github.com/user-attachments/assets/03955aad-2fdc-43e1-a29a-4ae2c7ebd6ac" />
+
+
 
 ### 2.3. IF
 
-- ![flow-03](../screenshots/flow-03-if.png)
+- <img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/779f2975-e944-400b-9c83-1d8d12e37373" />
+
+
 
 ### 2.4. Set
 
-- ![flow-04](../screenshots/flow-04-set.png)
+-    <img width="1918" height="716" alt="image" src="https://github.com/user-attachments/assets/46aa0b9e-aa06-4591-a10b-5a7c4abce9b4" />
+
+
 
 ### 2.5. HTTP Request
 
-- ![flow-05](../screenshots/flow-05-http.png)
+- <img width="1907" height="713" alt="image" src="https://github.com/user-attachments/assets/f6c18cf4-70e4-48f2-ac46-ee3c82661512" />
+
 
 ### 2.6. Schedule
 
-- ![flow-06](../screenshots/flow-06-schedule.png)
+- <img width="1910" height="714" alt="image" src="https://github.com/user-attachments/assets/d44aec18-244d-40ae-a97b-73f0487ffb2d" />
+
 
 ### 3.1. Redis (Set/Get)
 
-- ![flow-09](../screenshots/flow-09-redis.png)
+- <img width="1280" height="428" alt="5456340175718916436" src="https://github.com/user-attachments/assets/7f0ff832-43e0-43dd-af16-8935904a3122" />
 
 ### 3.2. Redis (Delete/Get)
 
-- ![flow-10](../screenshots/flow-10-redis.png)
+- <img width="1280" height="454" alt="5456340175718916435" src="https://github.com/user-attachments/assets/a2bc8c62-3f33-4c0d-b2ed-878528f67008" />
 
-### Ачивка 8. Webhook → Google Sheets
-
-- ![flow-12](../screenshots/flow-12-achievement-google-webhook.png)
-- ![Google Table](../screenshots/flow-12-achievement-result.png)
-
-### Ачивка 9. GitHub API
-
-- ![flow-11](../screenshots/flow-11-achievement-github.png)
 
 ## Выводы
 
 В ходе выполнения лабораторной работы я освоила n8n как low-code платформу автоматизации. Разобралась с запуском приложений через Docker Desktop, настройкой переменных окружения и volumes для сохранения данных. 
 
 Изучила базовые и продвинутые ноды, научилась передавать данные между ними, настраивать ветвление (IF) и выполнять JavaScript-код (Code). Отдельно разобралась с работой Redis через ноды n8n. 
-
-В рамках ачивки 8 я настроила связку Webhook и Google Sheets. Самым сложным здесь было пройти авторизацию в Google Cloud Console и получить OAuth-ключи, чтобы n8n получил доступ к таблицам. Но это дало понимание, как в реальной жизни приложения обмениваются данными через API и вебхуки.
-
-В рамках ачивки 9 настроила интеграцию с GitHub через Personal Access Token. Самым интересным было реализовать безопасное чтение файла (`README.md`) из репозитория. Я узнала, что GitHub отдаёт файлы в формате Base64, и научилась декодировать их обратно в текст с помощью JavaScript (`Buffer`). 
 
 Работа с n8n показала, как можно быстро и визуально строить сложные интеграции, не тратя время на написание бэкенда с нуля. Опыт работы с Docker и API поможет мне в дальнейшем при создании собственных автоматизаций.
 
