@@ -14,7 +14,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// 1. Используем const для константы и let для изменяемой переменной\nconst studentName = \"Железный\";\nlet sum = 0;\n\n// 2. Массив (array) и объект (object)\nconst numbers = [10, 20, 30, 40, 50];\nconst studentInfo = {\n  name: studentName,\n  group: \"ИИ-241\",\n  lab: 4\n};\n\n// 3. Цикл for для вычисления суммы\nfor (let i = 0; i < numbers.length; i++) {\n  sum += numbers[i];\n}\n\n// 4. Условие if/else\nlet status = \"\";\nif (sum > 100) {\n  status = \"Отлично, сумма больше 100\";\n} else {\n  status = \"Сумма слишком маленькая\";\n}\n\n// 5. Возвращаем объект с полем payload\nreturn {\n  json: {\n    payload: {\n      info: studentInfo,\n      numbers: numbers,\n      totalSum: sum,\n      status: status\n    }\n  }\n};"
+        "jsCode": "// 1. Используем const для константы и let для изменяемой переменной\nconst studentName = \"Можейко\";\nlet sum = 0;\n\n// 2. Массив (array) и объект (object)\nconst numbers = [10, 20, 30, 40, 50];\nconst studentInfo = {\n  name: studentName,\n  group: \"ИИ-241\",\n  lab: 4\n};\n\n// 3. Цикл for для вычисления суммы\nfor (let i = 0; i < numbers.length; i++) {\n  sum += numbers[i];\n}\n\n// 4. Условие if/else\nlet status = \"\";\nif (sum > 100) {\n  status = \"Отлично, сумма больше 100\";\n} else {\n  status = \"Сумма слишком маленькая\";\n}\n\n// 5. Возвращаем объект с полем payload\nreturn {\n  json: {\n    payload: {\n      info: studentInfo,\n      numbers: numbers,\n      totalSum: sum,\n      status: status\n    }\n  }\n};"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
