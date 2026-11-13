@@ -3,19 +3,8 @@
 **Способ установки:** Docker Desktop (образ `n8nio/n8n:latest`)
 
 **Команда запуска:**
-```
-docker volume create n8n_data
+<img width="885" height="502" alt="image" src="https://github.com/user-attachments/assets/03c388f0-c7d2-4159-8a3f-5f64e41969ef" />
 
-docker run -it --rm \
- --name n8n \
- -p 5678:5678 \
- -e GENERIC_TIMEZONE="Europe/Minsk" \
- -e TZ="Europe/Minsk" \
- -e N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true \
- -e N8N_RUNNERS_ENABLED=true \
- -v n8n_data:/home/node/.n8n \
- n8nio/n8n
-```
 
 ## Краткое описание выполненного
 
