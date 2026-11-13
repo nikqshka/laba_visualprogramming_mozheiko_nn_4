@@ -72,7 +72,8 @@
 
 ### 2.1. Manual → Set → Code
 
-- ![flow-01](../screenshots/flow-01-manual-set.png)
+- <img width="804" height="487" alt="image" src="https://github.com/user-attachments/assets/acdd733c-8c0a-4dc1-a189-d971ec6a0277" />
+
 
 ### 2.2. Code
 
