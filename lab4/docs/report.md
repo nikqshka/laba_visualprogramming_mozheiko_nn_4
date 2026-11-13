@@ -67,7 +67,8 @@
 
 ### Часть 1. Установка
 
-- ![Docker n8n](../screenshots/01-version.png)
+- <img width="1316" height="736" alt="image" src="https://github.com/user-attachments/assets/ba42cb1a-bf4b-4938-bd81-862fffe5a968" />
+
 
 ### 2.1. Manual → Set → Code
 
